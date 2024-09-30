@@ -1,0 +1,43 @@
+/* style.css */
+body { 
+    /* background-color: #b2f0c8;  */
+    background: linear-gradient(rgb(156, 184, 235), rgb(172, 171, 171),rgb(160, 200, 226));
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 100vh; 
+    margin: 0; 
+    font-family: 'Arial', sans-serif;
+}
+
+.container { 
+    width: 350px; 
+    padding: 25px; 
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1); 
+    border-radius: 10px;
+    background-color: white;
+}
+button, [type=submit]{
+    border-radius: 0.5em;
+    background-color: rgb(151, 183, 223);
+    padding: 7px;
+    margin: 5px;
+    border: 2px solid rgb(6, 6, 46);
+}
+select, input { 
+    width: 100%; 
+    margin: 10px 0; 
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+/* body{
+    background-color: rgb(64, 226, 205);
+} */

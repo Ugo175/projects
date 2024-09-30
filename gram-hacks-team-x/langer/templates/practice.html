@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://danielongithub17.github.io/funcs.js"></script>
+    <link rel="stylesheet" href="static/style.css">
+    <title>Practice!</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Edulingo</h2>
+        <div class="form-group">
+            <label for="fromLang">From:</label>
+            <select id="fromLang" name="fromLang">
+                <option value="en">English</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="toLang">To:</label>
+            <select id="toLang" name="toLang">
+                <option value="French">French</option>
+                <option value="Spanish">Spanish</option>
+                <option value="German">German</option>
+            </select>
+            
+        </div>
+        <div class="form-group">
+            <label for="nWords">Number of words:</label>
+            <input type="number" id="nWords" name="nWords" min="1" max="10" value="1">
+        </div>
+        <div>
+            <p id="generated">Generated Words: </p>
+
+            <p id="translated">Translated Words: </p>
+            <button id="read" value="Read" name="read">Read</button>
+        </div>
+        <button type="submit" id="generate">Generate Translation</button>
+    </div>
+    <script src="static/scripts.js"></script>
+</body>
+</html>
+
+<!-- https://laughing-tribble-pjg46q5pvggf96jx-5000.app.github.dev/ -->
